@@ -1,3 +1,6 @@
+'''
+This module stores default values for the application
+'''
 import pyglet
 from enum import Enum
 WINDOW_WIDTH = 800
@@ -8,8 +11,6 @@ TEXT_COLOR = (255, 255, 255, 255)
 INSTRUCTION_COLOR = (255, 255, 255, 128)
 LINE_COLOR = (0, 0, 0, 255)
 LINE_WIDTH = 5
-LABELS = ['v', 'x', 'arrow', 'check', 'circle']
-NUM_POINTS = 64
 INSTRUCTIONS = 'Draw a gesture to control media playback'
 
 
