@@ -6,6 +6,7 @@ import config
 from recognizer import Recognizer
 from pynput.keyboard import Controller, Key
 import time
+import numpy as np
 
 window = pyglet.window.Window(
     width=config.WINDOW_WIDTH,
@@ -64,7 +65,8 @@ def on_mouse_drag(x, y, dx, dy, buttons, modifiers):
 def on_mouse_release(x, y, button, modifiers):
     global state, result
     if button == pyglet.window.mouse.LEFT:
-        result = recognizer.recognize(points)
+        flipped = np.flipud(points)
+        result = recognizer.recognize(flipped)
         result_label.text = f'Result: {result}'
         state = config.State.END
 
