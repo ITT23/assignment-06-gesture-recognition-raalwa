@@ -10,7 +10,7 @@ LINE_COLOR = (0, 0, 0, 255)
 LINE_WIDTH = 5
 LABELS = ['v', 'x', 'arrow', 'check', 'circle']
 NUM_POINTS = 64
-INSTRUCTIONS = 'Draw a gesture on the canvas to begin'
+INSTRUCTIONS = 'Draw a gesture to control media playback'
 
 
 class State(Enum):
