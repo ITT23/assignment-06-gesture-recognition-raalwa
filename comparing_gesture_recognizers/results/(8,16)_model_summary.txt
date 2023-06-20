@@ -1,0 +1,21 @@
+Model summary:
+
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ lstm (LSTM)                 (None, 8)                 352       
+                                                                 
+ dense (Dense)               (None, 16)                144       
+                                                                 
+ dense_1 (Dense)             (None, 16)                272       
+                                                                 
+=================================================================
+Total params: 768
+Trainable params: 768
+Non-trainable params: 0
+_________________________________________________________________
+
+Prediction time:
+
+35.1 ms ± 433 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
