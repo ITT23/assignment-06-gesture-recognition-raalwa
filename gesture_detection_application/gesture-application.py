@@ -1,4 +1,5 @@
 '''
+This module handles UI and media control
 '''
 import sys
 import pyglet

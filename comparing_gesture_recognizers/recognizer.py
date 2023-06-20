@@ -1,3 +1,7 @@
+'''
+This module is an implementation of Wobbrock et al's One Dollar Recognizer.
+It is based on the JavaScript implementation.
+'''
 from scipy.signal import resample
 import xml.etree.ElementTree as ET
 import os

@@ -1,4 +1,5 @@
 '''
+This module handles UI and input logic
 '''
 import sys
 import pyglet
