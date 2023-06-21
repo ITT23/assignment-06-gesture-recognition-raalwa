@@ -1,3 +1,6 @@
+'''
+This module stores default values for the application
+'''
 import pyglet
 from enum import Enum
 WINDOW_WIDTH = 800
